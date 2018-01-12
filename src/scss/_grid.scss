@@ -1,7 +1,8 @@
+
+
 .wrapper{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-auto-rows: 80px;
 	grid-template-areas: 
 		"header"
 		"main"
@@ -9,29 +10,22 @@
 		"footer";
 }
 
-.header{
+.grid-header{
 	grid-area: header;
-	background-color: #AF7AC5;
-	display: flex;
-	justify-content: space-between;
-	padding: 5px;
-	h1{
-		background-color: #C70039;
-		width: 30%;
-	}
+				
 }
 
-.main{
+.grid-main{
 	grid-area: main;
 	background-color: #16A085;
 }
 
-.team{
+.grid-team{
 	grid-area: team;
 	background-color: #FFC300;
 }
 
-.footer{
+.grid-footer{
 	grid-area: footer;
 	background-color: #FF5733;
 }

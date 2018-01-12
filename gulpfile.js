@@ -62,7 +62,7 @@ gulp.task('serve', function() {
 
 
 
-gulp.task('default', ['sass', 'htmlmin',  'serve']);
+gulp.task('default', ['sass', 'htmlmin', 'move-font', 'serve']);
 
 
 // .on('change', browserSync.reload  -  server: "./"

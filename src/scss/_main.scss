@@ -1,0 +1,44 @@
+.grid-main{
+	@extend %center-flex-row;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../dist/img/bg.jpg');	
+	background-position: center center;
+	background-size: cover;
+}
+
+.wrapper-main{
+	@extend %center-flex-column;
+	width: 90%;
+	padding: 50px 0;
+
+	h2{
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 20px;
+		line-height: 2.2rem;
+	}
+
+	hr{
+		border: 1px solid #fff;
+		width: 20%;
+		margin-bottom: 20px;
+	}
+
+	p{
+		font-size: .7rem;
+		font-weight: 200;
+		text-align: center;
+		color: #fff;
+		line-height: 1.2rem;
+		margin-bottom: 40px;
+	}
+
+	a{
+		background-color: #AF7AC5;
+		color: #fff;
+		text-decoration: none;
+		padding: 17px;
+		border-radius: 30px;
+	}
+}
